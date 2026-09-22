@@ -76,6 +76,14 @@ export default function App() {
       <header className="fixed top-0 w-full p-6 flex justify-between items-start z-40 text-sm opacity-70">
         <div>
           <p>Ricardo Torres Moreno</p>
+          <a 
+            href="/resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:opacity-100 hover:underline inline-block mt-1 text-xs opacity-80"
+          >
+            [ View Resume ]
+          </a>
         </div>
         <div className="text-right">
           <p>Sys.Time: {time.toLocaleTimeString([], { hour12: false })}</p>
@@ -212,6 +220,7 @@ export default function App() {
                     I currently build and maintain zero-trust edge networks, host technical workshops covering Python and data manipulation, and configure Arch Linux systems in my downtime.
                   </p>
                   <div className="flex gap-6 pt-4 border-t border-[#fffee2]/20 flex-col sm:flex-row">
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 hover:underline">Resume (PDF) ↗</a>
                     <a href="https://github.com/ricardotm-dev" target="_blank" rel="noreferrer" className="hover:opacity-100 hover:underline">GitHub</a>
                     <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="hover:opacity-100 hover:underline">LinkedIn</a>
                     <a href="mailto:ricard0t@outlook.com" className="hover:opacity-100 hover:underline">Email: ricard0t [at] outlook [dot] com</a>
